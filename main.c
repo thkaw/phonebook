@@ -3,7 +3,6 @@
 #include <string.h>
 #include <time.h>
 #include <assert.h>
-
 #include IMPL
 #define INPUT_SIZE 1
 #define DICT_FILE "./dictionary/words.txt"
@@ -76,7 +75,6 @@ int main(int argc, char *argv[])
                "Did you implement findName() in " IMPL "?");
         assert(0 == strcmp(findName(input, e)->lastName, input[i]));
     }
-
 
 
 #if defined(__GNUC__)
